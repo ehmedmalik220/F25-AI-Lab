@@ -1,8 +1,0 @@
-step | previous | percept | target | command
-1 | None | (29, True) | COOL | SEND
-2 | COOL | (29, True) | COOL | NO_COMMAND
-3 | COOL | (20, True) | IDLE | SEND
-4 | IDLE | (26, True) | IDLE | NO_COMMAND
-5 | IDLE | (19, True) | WARM | SEND
-6 | WARM | (29, False) | ECO | SEND
-7 | ECO | (29, False) | ECO | NO_COMMAND
