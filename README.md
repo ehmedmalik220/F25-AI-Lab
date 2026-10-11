@@ -9,9 +9,18 @@ Artificial Intelligence lab work for Labs 1, 2 and 3.
 
 - `Lab-1/` — Introduction to AI and AI paradigms
 - `Lab-2/` — Intelligent agents and PEAS
-- `Lab-3/` — BFS, DFS, DLS, IDDFS and UCS
+- `Lab-3/` — **Uninformed Search: BFS, DFS, DLS, IDDFS and UCS**
 
-## Lab 3
+## Lab 3 — Uninformed Search
+
+Lab 3 applies search algorithms to an emergency-exit graph. It covers:
+
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Depth-Limited Search (DLS)
+- Iterative Deepening DFS (IDDFS)
+- Uniform-Cost Search (UCS)
+- Search traces, path costs and edge-case tests
 
 Lab 3 contains only these two files:
 
