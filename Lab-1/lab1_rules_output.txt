@@ -1,5 +1,0 @@
-case | expected | actual | pass | reason
-full_pass | Review | Review | True | all synthetic conditions passed
-missing_recommendation | Hold | Hold | True | recommendation missing
-low_need_score | Hold | Hold | True | need score below 50
-threshold_boundary | Review | Review | True | all synthetic conditions passed
