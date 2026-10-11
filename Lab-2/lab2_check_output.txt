@@ -1,0 +1,19 @@
+step | previous | percept | target | command
+1 | None | (29, True) | COOL | SEND
+2 | COOL | (29, True) | COOL | NO_COMMAND
+3 | COOL | (20, True) | IDLE | SEND
+4 | IDLE | (26, True) | IDLE | NO_COMMAND
+5 | IDLE | (19, True) | WARM | SEND
+6 | WARM | (29, False) | ECO | SEND
+7 | ECO | (29, False) | ECO | NO_COMMAND
+repeated_cool
+(None, (29, True), 'COOL', True)
+('COOL', (29, True), 'COOL', False)
+boundaries
+(None, (20, True), 'IDLE', True)
+('IDLE', (26, True), 'IDLE', False)
+transition
+(None, (29, True), 'COOL', True)
+('COOL', (19, True), 'WARM', True)
+empty_priority
+(None, (29, False), 'ECO', True)
