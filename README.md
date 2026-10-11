@@ -3,27 +3,27 @@
 **Student:** Muhammad Ahmad  
 **Roll No.:** 395
 
-This repository contains the work for Artificial Intelligence Labs 1, 2 and 3. Each lab folder contains Python source files, captured output, and a Word report explaining the work.
-
-## Run
-
-The code uses only the Python standard library. From the repository root:
-
-```bash
-python Lab-1/lab1_compare.py
-python Lab-1/lab1_rules.py
-python Lab-2/lab2_percepts.py
-python Lab-2/lab2_model.py
-python Lab-2/lab2_check.py
-python Lab-3/lab3_bfs_dfs.py
-python Lab-3/lab3_depth_search.py
-python Lab-3/lab3_ucs.py
-```
+Artificial Intelligence lab work for Labs 1, 2 and 3.
 
 ## Folders
 
-- `Lab-1/` — symbolic and threshold screening, transparent rules, and Lab 1 report.
-- `Lab-2/` — PEAS discussion and a stateful smart-classroom agent.
-- `Lab-3/` — BFS, DFS, DLS, IDDFS, and UCS on the supplied graph.
+- `Lab-1/` — Introduction to AI and AI paradigms
+- `Lab-2/` — Intelligent agents and PEAS
+- `Lab-3/` — BFS, DFS, DLS, IDDFS and UCS
 
-The numeric thresholds and graph weights are synthetic lab assumptions, not claims about a real scholarship or building system.
+## Lab 3
+
+Lab 3 contains only these two files:
+
+- [`Lab3.py`](Lab-3/Lab3.py) — search algorithms and test cases
+- [`Lab3_Report.docx`](Lab-3/Lab3_Report.docx) — lab report and results
+
+## Run Lab 3
+
+From the repository root, run:
+
+```bash
+python Lab-3/Lab3.py
+```
+
+The code uses only the Python standard library.
